@@ -9,7 +9,7 @@ app.use(express.static('public'));
 var socket = require('socket.io');
 var io = socket(server);
 
-var Victor = require('Victor');
+var Victor = require('victor');
 var Player = require('./player');
 var serverData = require('./globals');
 var maths = require('./maths');
